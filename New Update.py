@@ -3,9 +3,9 @@ import os
 import sys
 
 CURRENT_VERSION = "1.0.0"
-VERSION_URL = "https://example.com/version.txt"
-TOOL_URL = "https://example.com/tool.py"
-TOOL_FILENAME = "tool.py"
+VERSION_URL = "https://raw.githubusercontent.com/HossamDevZ/app_update/main/version.txt"
+TOOL_URL = "https://raw.githubusercontent.com/HossamDevZ/app_update/main/New Update.py"
+TOOL_FILENAME = "New Update.py"
 
 def check_for_update():
     try:
